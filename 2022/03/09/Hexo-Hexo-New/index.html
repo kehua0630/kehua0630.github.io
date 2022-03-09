@@ -4,15 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>about | Kehua&#39;s Blog</title>
+  <title>Hexo-新增文章 | Kehua&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://example.com/about/index.html">
+  <meta name="description" content="基本指令1$ hexo new [layout] &quot;Article Title&quot;  Article Title若含空白鍵，需用引號包覆  layout (draft, page, post) scaffolds 資料夾內有layout   post: 新增文章   未指定layout的預設值，可從_config.yml修改default_layout: post 可在_post">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo-新增文章">
+<meta property="og:url" content="http://example.com/2022/03/09/Hexo-Hexo-New/index.html">
 <meta property="og:site_name" content="Kehua&#39;s Blog">
+<meta property="og:description" content="基本指令1$ hexo new [layout] &quot;Article Title&quot;  Article Title若含空白鍵，需用引號包覆  layout (draft, page, post) scaffolds 資料夾內有layout   post: 新增文章   未指定layout的預設值，可從_config.yml修改default_layout: post 可在_post">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-03-06T12:31:53.000Z">
-<meta property="article:modified_time" content="2022-03-06T12:31:53.859Z">
+<meta property="article:published_time" content="2022-03-09T03:38:28.000Z">
+<meta property="article:modified_time" content="2022-03-09T15:45:56.768Z">
 <meta property="article:author" content="Kehua Chao">
 <meta name="twitter:card" content="summary">
   
@@ -71,12 +73,16 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Hexo-Hexo-New" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/about/index.html" class="article-date">
-  <time class="dt-published" datetime="2022-03-06T12:31:53.000Z" itemprop="datePublished">2022-03-06</time>
+    <a href="/2022/03/09/Hexo-Hexo-New/" class="article-date">
+  <time class="dt-published" datetime="2022-03-09T03:38:28.000Z" itemprop="datePublished">2022-03-09</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/">學習筆記</a>►<a class="article-category-link" href="/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/Hexo/">Hexo</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -85,7 +91,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      about
+      Hexo-新增文章
     </h1>
   
 
@@ -93,11 +99,49 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h1 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] <span class="string">&quot;Article Title&quot;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>Article Title若含空白鍵，需用引號包覆</li>
+</ul>
+<h2 id="layout-draft-page-post"><a href="#layout-draft-page-post" class="headerlink" title="layout (draft, page, post)"></a>layout (draft, page, post)</h2><ul>
+<li>scaffolds 資料夾內有layout</li>
+</ul>
+<ol>
+<li>post: 新增文章</li>
+</ol>
+<ul>
+<li>未指定layout的預設值，可從_config.yml修改default_layout: post</li>
+<li>可在_posts內找到文章</li>
+</ul>
+<ol start="2">
+<li>draft: 草稿</li>
+</ol>
+<ul>
+<li>預設不會包含在靜態檔案內，部署後看不到此文章，要查看草稿可用</li>
+</ul>
+<ol>
+<li>從_config.yml修改render_drafts: false</li>
+<li>hexo g –draft or hexo s –draft</li>
+</ol>
+<ul>
+<li>草稿完成，準備發佈可用，文章會從_drafts移至_posts<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish draft xxx.md</span><br></pre></td></tr></table></figure></li>
+</ul>
+<ol start="3">
+<li>page</li>
+</ol>
+<ul>
+<li>會在source下生成一個資料夾(目錄)，作為網址路徑(文章分類使用)</li>
+</ul>
+<hr>
+<p>參考網站：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://oakland.github.io/2016/05/02/hexo-%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84post/">如何生成一篇新的post</a></li>
+</ul>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/about/index.html" data-id="cl0jqhfxk0005agsh7x2n45ef" data-title="about" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/03/09/Hexo-Hexo-New/" data-id="cl0jqhfxl0006agshadewclv9" data-title="Hexo-新增文章" class="article-share-link">Share</a>
       
       
       
@@ -105,6 +149,25 @@
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/2022/03/09/Hexo-SetUpHexo/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hexo-建立Hexo Blog
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/03/06/20220305%E4%B8%8A%E8%AA%B2%E8%A8%98%E9%8C%84-21/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">20220305上課記錄(21)</div>
+    </a>
+  
+</nav>
+
   
 </article>
 
