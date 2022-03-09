@@ -30,3 +30,7 @@ $ hexo publish draft xxx.md
 
 3. page
 - 會在source下生成一個資料夾(目錄)，作為網址路徑(文章分類使用)
+
+---
+參考網站：
+- [如何生成一篇新的post](http://oakland.github.io/2016/05/02/hexo-%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84post/)
