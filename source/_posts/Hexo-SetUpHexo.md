@@ -65,12 +65,12 @@ deploy:
   branch: master
 ```
 \*Owner 為 GitHub 帳號
-
+\*部署至master，{% post_link Hexo-BackUpSourceCode 備份原始碼要另創分支 %}
 
 ---
 # 本機端開啟
 ```bash
-$ hexo server
+$ hexo server # 開啟 http://localhost:4000/ 
 $ hexo s -p=3600 # 預設port=4000，可換其他port
 ```
 
@@ -81,3 +81,8 @@ $ hexo generate # hexo g 產生靜態檔案(public)
 $ hexo deploy # hexo d 部署至 https://Owner.github.io/ 
 ```
 
+
+---
+參考網站：
+- [使用GitHub + Hexo 建立個人blogger](https://sinyilin.github.io/hexo/20190924/3166793059/)
+- [Hexo+GitHub，新手也可以快速建立部落格](https://blackmaple.me/hexo-tutorial/)
