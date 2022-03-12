@@ -1,190 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kehua&#39;s Blog</title>
+<search>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
-  <updated>2022-03-12T13:44:14.186Z</updated>
-  <id>http://example.com/</id>
-  
-  <author>
-    <name>Kehua Chao</name>
-    
-  </author>
-  
-  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hexo-連結設定</title>
-    <link href="http://example.com/2022/03/10/Hexo-Link/"/>
-    <id>http://example.com/2022/03/10/Hexo-Link/</id>
-    <published>2022-03-10T04:02:29.000Z</published>
-    <updated>2022-03-12T13:44:14.186Z</updated>
+    <link href="/2022/03/10/Hexo-Link/"/>
+    <url>/2022/03/10/Hexo-Link/</url>
     
     <content type="html"><![CDATA[<h1 id="外部連結"><a href="#外部連結" class="headerlink" title="外部連結"></a>外部連結</h1><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">[顯示文字](連結)<br></code></pre></td></tr></table></figure><h1 id="內部文章連結"><a href="#內部文章連結" class="headerlink" title="內部文章連結"></a>內部文章連結</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">&#123;% post_link _posts內檔名 顯示文字 %&#125;<br><br>[顯示文字] (相對路徑) <span class="hljs-comment">#寫法同外部連結</span><br></code></pre></td></tr></table></figure><p>*相對路徑從public資料夾看<br>*3&#x2F;9的文章link到3&#x2F;6的文章：<br>..&#x2F; →到母資料夾(09)<br>..&#x2F; →再上一層資料夾(03)<br>06&#x2F;檔名 →找到06資料下的指定檔案</p>]]></content>
     
     
+    <categories>
       
+      <category>學習筆記</category>
       
-    <summary type="html">&lt;h1 id=&quot;外部連結&quot;&gt;&lt;a href=&quot;#外部連結&quot; class=&quot;headerlink&quot; title=&quot;外部連結&quot;&gt;&lt;/a&gt;外部連結&lt;/h1&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;div</summary>
+      <category>Hexo</category>
       
-    
-    
-    
-    <category term="學習筆記" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="Hexo" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/Hexo/"/>
+    </categories>
     
     
   </entry>
   
+  
+  
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/03/09/hello-world/"/>
-    <id>http://example.com/2022/03/09/hello-world/</id>
-    <published>2022-03-09T15:45:56.770Z</published>
-    <updated>2022-03-09T15:45:56.771Z</updated>
+    <link href="/2022/03/09/hello-world/"/>
+    <url>/2022/03/09/hello-world/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
+  
+  
   <entry>
     <title>Hexo-備份原始碼</title>
-    <link href="http://example.com/2022/03/09/Hexo-BackUpSourceCode/"/>
-    <id>http://example.com/2022/03/09/Hexo-BackUpSourceCode/</id>
-    <published>2022-03-09T08:25:05.000Z</published>
-    <updated>2022-03-12T13:44:14.186Z</updated>
+    <link href="/2022/03/09/Hexo-BackUpSourceCode/"/>
+    <url>/2022/03/09/Hexo-BackUpSourceCode/</url>
     
     <content type="html"><![CDATA[<p>GitHub 上的 master 已用來部署靜態檔案，原始碼改上到分支</p><h2 id="本地端"><a href="#本地端" class="headerlink" title="本地端"></a>本地端</h2><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">git init<br>git checkout -b branch <span class="hljs-comment">#建本地分支</span><br>git add.<br>git commit -m <span class="hljs-string">&quot;備註&quot;</span><br></code></pre></td></tr></table></figure><h2 id="上傳到-Github"><a href="#上傳到-Github" class="headerlink" title="上傳到 Github"></a>上傳到 Github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git remote add origin 儲存庫路徑 <span class="hljs-comment">#這裡要修改上傳的儲存庫路徑</span><br>git push -u origin branch <span class="hljs-comment">#推到遠端分支</span><br></code></pre></td></tr></table></figure><p>*儲存庫路徑: <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a>:Owner&#x2F;Owner.git<br>→ 去 GitHub Repository 看</p><h2 id="出錯問題"><a href="#出錯問題" class="headerlink" title="出錯問題"></a>出錯問題</h2><ul><li><p>推到 Git 出錯 - 有可能是先前資料卡住，先刪記錄後再推一次</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git remote <span class="hljs-built_in">rm</span> origin<br></code></pre></td></tr></table></figure></li><li><p>金鑰錯誤</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ ssh-keygen   <span class="hljs-comment">#產生金鑰</span><br>Generating public/private rsa key pair.<br>Enter file <span class="hljs-keyword">in</span> <span class="hljs-built_in">which</span> to save the key (key_path)):   <span class="hljs-comment">#金鑰存放路徑，直接按 Enter</span><br><br>$ <span class="hljs-built_in">cat</span> key_path <span class="hljs-comment">#讀取路徑金鑰檔案，複製貼到GitHub</span><br></code></pre></td></tr></table></figure></li><li><p>客製主題無法上傳</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ git <span class="hljs-built_in">rm</span> --cache themes/主題文件名 <span class="hljs-comment">#刪除暂存區clone下來的檔案</span><br></code></pre></td></tr></table></figure><!-- 把 themes/hexo-theme-icarus/.git文件夹到放到位置 比方说桌面记得把 themes/hexo-theme-icarus/.gitignore里的 _config去掉后面再把刚刚的.git文件夹移动回去 --></li></ul><hr><p>參考網站：</p><ul><li><a href="https://hackmd.io/@tchung/HkhnqukIS#%E5%82%99%E4%BB%BD-Hexo-%E5%8E%9F%E5%A7%8B%E6%AA%94%E6%A1%88%E8%87%B3-GitHub">備份 Hexo 原始檔案至 GitHub</a></li><li><a href="https://skychang.github.io/2015/10/19/Hexo-Source_Control_and_Deploy/">Hexo - 版本控制與發佈到 GitHub</a></li><li><a href="https://blog.jaycetyle.com/2018/02/github-ssh/">Git 版本控制筆記 - 使用 github 及 ssh 金鑰設定</a></li><li><a href="https://blog.csdn.net/liaoweilin0529/article/details/113650333">Hexo 主题 themes-文件夹无法提交到 GitHub 的解决方法</a></li></ul>]]></content>
     
     
+    <categories>
       
+      <category>學習筆記</category>
       
-    <summary type="html">&lt;p&gt;GitHub 上的 master 已用來部署靜態檔案，原始碼改上到分支&lt;/p&gt;
-&lt;h2 id=&quot;本地端&quot;&gt;&lt;a href=&quot;#本地端&quot; class=&quot;headerlink&quot; title=&quot;本地端&quot;&gt;&lt;/a&gt;本地端&lt;/h2&gt;&lt;figure class=&quot;highlight b</summary>
+      <category>Hexo</category>
       
-    
-    
-    
-    <category term="學習筆記" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="Hexo" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/Hexo/"/>
+    </categories>
     
     
   </entry>
   
+  
+  
   <entry>
     <title>Hexo-隱藏文章</title>
-    <link href="http://example.com/2022/03/09/Hexo-HidePost/"/>
-    <id>http://example.com/2022/03/09/Hexo-HidePost/</id>
-    <published>2022-03-09T07:14:07.000Z</published>
-    <updated>2022-03-09T15:45:56.769Z</updated>
+    <link href="/2022/03/09/Hexo-HidePost/"/>
+    <url>/2022/03/09/Hexo-HidePost/</url>
     
     <content type="html"><![CDATA[<h2 id="下載套件"><a href="#下載套件" class="headerlink" title="下載套件"></a>下載套件</h2><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-hide-posts --save<br></code></pre></td></tr></table></figure><h2 id="config-yml增加設定"><a href="#config-yml增加設定" class="headerlink" title="_config.yml增加設定"></a>_config.yml增加設定</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># hexo-hide-posts</span><br>hide_posts:<br>  <span class="hljs-comment"># 可以改成其他你喜欢的名字</span><br>  filter: hidden<br>  <span class="hljs-comment"># 指定你想要传递隐藏文章的 generator，比如让所有隐藏文章在存档页面可见</span><br>  <span class="hljs-comment"># 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.</span><br>  public_generators: []<br>  <span class="hljs-comment"># 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录</span><br>  noindex: <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure><h2 id="文章設定"><a href="#文章設定" class="headerlink" title="文章設定"></a>文章設定</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hidden: <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure><hr><p>參考網站：</p><ul><li><a href="https://www.0412.cyou/type/heyc.html">hexo 隐藏文章插件 hexo+next-hidden-post</a></li></ul>]]></content>
     
     
+    <categories>
       
+      <category>學習筆記</category>
       
-    <summary type="html">&lt;h2 id=&quot;下載套件&quot;&gt;&lt;a href=&quot;#下載套件&quot; class=&quot;headerlink&quot; title=&quot;下載套件&quot;&gt;&lt;/a&gt;下載套件&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;div</summary>
+      <category>Hexo</category>
       
-    
-    
-    
-    <category term="學習筆記" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="Hexo" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/Hexo/"/>
+    </categories>
     
     
   </entry>
   
+  
+  
   <entry>
     <title>Hexo-建立Hexo Blog</title>
-    <link href="http://example.com/2022/03/09/Hexo-SetUpHexo/"/>
-    <id>http://example.com/2022/03/09/Hexo-SetUpHexo/</id>
-    <published>2022-03-09T06:56:27.000Z</published>
-    <updated>2022-03-12T13:44:14.187Z</updated>
+    <link href="/2022/03/09/Hexo-SetUpHexo/"/>
+    <url>/2022/03/09/Hexo-SetUpHexo/</url>
     
     <content type="html"><![CDATA[<h1 id="前置作業"><a href="#前置作業" class="headerlink" title="前置作業"></a>前置作業</h1><h3 id="1-安裝Node-js"><a href="#1-安裝Node-js" class="headerlink" title="1. 安裝Node.js"></a>1. 安裝<a href="https://nodejs.org/en/">Node.js</a></h3><p>查看版本</p><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ node -v<br>$ npm -v<br></code></pre></td></tr></table></figure><h3 id="2-安裝-Hexo-Git"><a href="#2-安裝-Hexo-Git" class="headerlink" title="2. 安裝 Hexo Git"></a>2. 安裝 Hexo Git</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure><h3 id="3-安裝-Hexo"><a href="#3-安裝-Hexo" class="headerlink" title="3. 安裝 Hexo"></a>3. 安裝 Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-cli -g<br></code></pre></td></tr></table></figure><p>查看版本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo version<br>$ hexo v<br></code></pre></td></tr></table></figure><hr><h1 id="建立專案"><a href="#建立專案" class="headerlink" title="建立專案"></a>建立專案</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo init blog       <span class="hljs-comment"># 初始化 blog</span><br>$ <span class="hljs-built_in">cd</span> blog              <span class="hljs-comment"># 移動到剛創建的 blog 資料夾裡</span><br>$ npm install<span class="hljs-comment"># 安裝相關套件</span><br></code></pre></td></tr></table></figure><hr><h1 id="連接-GitHub"><a href="#連接-GitHub" class="headerlink" title="連接 GitHub"></a>連接 GitHub</h1><h3 id="GitHub設定"><a href="#GitHub設定" class="headerlink" title="GitHub設定"></a><a href="https://github.com/">GitHub</a>設定</h3><ul><li>登入並建立 new repository，Repository name 設為 Owner.github.io</li></ul><h3 id="config-yml-deploy-設定"><a href="#config-yml-deploy-設定" class="headerlink" title="_config.yml deploy 設定"></a>_config.yml deploy 設定</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># Deployment</span><br>deploy:<br>  <span class="hljs-built_in">type</span>: git<br>  repo: https://github.com/Owner/Owner.github.io.git<br>  branch: master<br></code></pre></td></tr></table></figure><p>*Owner 為 GitHub 帳號<br>*部署至master，<a href="/2022/03/09/Hexo-BackUpSourceCode/" title="備份原始碼要另創分支">備份原始碼要另創分支</a></p><hr><h1 id="本機端開啟"><a href="#本機端開啟" class="headerlink" title="本機端開啟"></a>本機端開啟</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server <span class="hljs-comment"># 開啟 http://localhost:4000/ </span><br>$ hexo s -p=3600 <span class="hljs-comment"># 預設port=4000，可換其他port</span><br></code></pre></td></tr></table></figure><h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo clean <span class="hljs-comment"># hexo cl 清除public檔案，第一次部署可不用</span><br>$ hexo generate <span class="hljs-comment"># hexo g 產生靜態檔案(public)</span><br>$ hexo deploy <span class="hljs-comment"># hexo d 部署至 https://Owner.github.io/ </span><br></code></pre></td></tr></table></figure><hr><p>參考網站：</p><ul><li><a href="https://sinyilin.github.io/hexo/20190924/3166793059/">使用GitHub + Hexo 建立個人blogger</a></li><li><a href="https://blackmaple.me/hexo-tutorial/">Hexo+GitHub，新手也可以快速建立部落格</a></li></ul>]]></content>
     
     
+    <categories>
       
+      <category>學習筆記</category>
       
-    <summary type="html">&lt;h1 id=&quot;前置作業&quot;&gt;&lt;a href=&quot;#前置作業&quot; class=&quot;headerlink&quot; title=&quot;前置作業&quot;&gt;&lt;/a&gt;前置作業&lt;/h1&gt;&lt;h3 id=&quot;1-安裝Node-js&quot;&gt;&lt;a href=&quot;#1-安裝Node-js&quot; class=&quot;headerlink&quot; ti</summary>
+      <category>Hexo</category>
       
-    
-    
-    
-    <category term="學習筆記" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="Hexo" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/Hexo/"/>
+    </categories>
     
     
   </entry>
   
+  
+  
   <entry>
     <title>Hexo-新增文章</title>
-    <link href="http://example.com/2022/03/09/Hexo-Hexo-New/"/>
-    <id>http://example.com/2022/03/09/Hexo-Hexo-New/</id>
-    <published>2022-03-09T03:38:28.000Z</published>
-    <updated>2022-03-09T15:45:56.768Z</updated>
+    <link href="/2022/03/09/Hexo-Hexo-New/"/>
+    <url>/2022/03/09/Hexo-Hexo-New/</url>
     
     <content type="html"><![CDATA[<h1 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h1><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new [layout] <span class="hljs-string">&quot;Article Title&quot;</span><br></code></pre></td></tr></table></figure><ul><li>Article Title若含空白鍵，需用引號包覆</li></ul><h2 id="layout-draft-page-post"><a href="#layout-draft-page-post" class="headerlink" title="layout (draft, page, post)"></a>layout (draft, page, post)</h2><ul><li>scaffolds 資料夾內有layout</li></ul><ol><li>post: 新增文章</li></ol><ul><li>未指定layout的預設值，可從_config.yml修改default_layout: post</li><li>可在_posts內找到文章</li></ul><ol start="2"><li>draft: 草稿</li></ol><ul><li>預設不會包含在靜態檔案內，部署後看不到此文章，要查看草稿可用</li></ul><ol><li>從_config.yml修改render_drafts: false</li><li>hexo g –draft or hexo s –draft</li></ol><ul><li>草稿完成，準備發佈可用，文章會從_drafts移至_posts<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo publish draft xxx.md<br></code></pre></td></tr></table></figure></li></ul><ol start="3"><li>page</li></ol><ul><li>會在source下生成一個資料夾(目錄)，作為網址路徑(文章分類使用)</li></ul><hr><p>參考網站：</p><ul><li><a href="http://oakland.github.io/2016/05/02/hexo-%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84post/">如何生成一篇新的post</a></li></ul>]]></content>
     
     
+    <categories>
       
+      <category>學習筆記</category>
       
-    <summary type="html">&lt;h1 id=&quot;基本指令&quot;&gt;&lt;a href=&quot;#基本指令&quot; class=&quot;headerlink&quot; title=&quot;基本指令&quot;&gt;&lt;/a&gt;基本指令&lt;/h1&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;div</summary>
+      <category>Hexo</category>
       
-    
-    
-    
-    <category term="學習筆記" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="Hexo" scheme="http://example.com/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/Hexo/"/>
+    </categories>
     
     
   </entry>
   
+  
+  
   <entry>
     <title>20220305上課記錄(21)</title>
-    <link href="http://example.com/2022/03/06/20220305%E4%B8%8A%E8%AA%B2%E8%A8%98%E9%8C%84-21/"/>
-    <id>http://example.com/2022/03/06/20220305%E4%B8%8A%E8%AA%B2%E8%A8%98%E9%8C%84-21/</id>
-    <published>2022-03-06T13:32:38.000Z</published>
-    <updated>2022-03-09T15:45:56.766Z</updated>
+    <link href="/2022/03/06/20220305%E4%B8%8A%E8%AA%B2%E8%A8%98%E9%8C%84-21/"/>
+    <url>/2022/03/06/20220305%E4%B8%8A%E8%AA%B2%E8%A8%98%E9%8C%84-21/</url>
     
     <content type="html"><![CDATA[<p>時間：2022&#x2F;3&#x2F;5(六) 9~10 Sera<br>地點：胡娜室外場<br>內容： 準備Breakpoint(3&#x2F;19) 女單2.0<br>天氣：陰</p><p>課題：</p><ul><li>反拍失誤太多(尤其是掛網)</li><li>出力時容易出界，增加球的旋轉，注意拍面不要翻掉</li><li>左右移動的球不一定要旋高回去，適時切擋讓球有長短變化</li><li>減少UE(落點控制 &gt; 發力硬打)</li><li>接近球的時候先減速，身體轉正面，用開放式打回去</li><li></li></ul><p>影片：</p><div class="video-container"><iframe src="https://www.youtube.com/embed/ReyWBAfr_R0" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
     
     
+    <categories>
       
+      <category>網球</category>
       
-    <summary type="html">&lt;p&gt;時間：2022&amp;#x2F;3&amp;#x2F;5(六) 9~10 Sera&lt;br&gt;地點：胡娜室外場&lt;br&gt;內容： 準備Breakpoint(3&amp;#x2F;19) 女單2.0&lt;br&gt;天氣：陰&lt;/p&gt;
-&lt;p&gt;課題：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;反拍失誤太多(尤其是掛網)&lt;/li&gt;
-&lt;l</summary>
+      <category>上課</category>
       
-    
-    
-    
-    <category term="網球" scheme="http://example.com/categories/%E7%B6%B2%E7%90%83/"/>
-    
-    <category term="上課" scheme="http://example.com/categories/%E7%B6%B2%E7%90%83/%E4%B8%8A%E8%AA%B2/"/>
-    
-    <category term="Sera" scheme="http://example.com/categories/%E7%B6%B2%E7%90%83/%E4%B8%8A%E8%AA%B2/Sera/"/>
+      <category>Sera</category>
+      
+    </categories>
     
     
   </entry>
   
-</feed>
+  
+  
+  
+</search>
