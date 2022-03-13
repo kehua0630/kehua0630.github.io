@@ -46,6 +46,7 @@ $ cat key_path #讀取路徑金鑰檔案，複製貼到GitHub
 
 
 - 客製主題無法上傳
+git指令不成功，直接把theme底下的主題資料夾刪除，再手動新增同名資料夾，把原本的檔案搬進去
 ```bash
 $ git rm --cache themes/主題文件名 #刪除暂存區clone下來的檔案
 ```
