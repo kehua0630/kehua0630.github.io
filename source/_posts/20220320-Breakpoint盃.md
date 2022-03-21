@@ -27,4 +27,12 @@ tags:
 - 救球：來不及的球部要硬衝，用切擋救球，比較能穩住身體，馬上回位
 - 專注力：局數0-3落後到追成5-5，中間專注力後，手感好；後面轉注力不足，失誤多
 
+照片集
+![](/img/20220320-Breakpoint盃/DSC_0158.JPG)
+![](/img/20220320-Breakpoint盃/DSC_0159.JPG)
+![](/img/20220320-Breakpoint盃/DSC_0185.JPG)
+![](/img/20220320-Breakpoint盃/DSC_0193.JPG)
+![](/img/20220320-Breakpoint盃/DSC_0202.JPG)
+
+
 
